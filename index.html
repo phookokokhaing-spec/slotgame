@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slot Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Display Panel -->
+  <div class="top-panel">
+    <div>💰 Credit: <span id="credit">10000</span></div>
+    <div>🎯 Bet: <span id="bet">100</span></div>
+    <div>🏆 Win: <span id="win">0</span></div>
+    <div>🆓 Free Spins: <span id="freeSpins">0</span></div>
+  </div>
+
+  <!-- Slot Grid -->
+  <div id="slotGrid" class="slot-grid"></div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button id="decreaseBetBtn" class="control-btn">➖</button>
+    <button id="spinBtn" class="spin-btn">🎰 Spin</button>
+    <button id="increaseBetBtn" class="control-btn">➕</button>
+  </div>
+
+<!-- Audio Files -->
+<audio id="bgSound" src="sound/back.mp3" loop></audio>
+<audio id="buffaloSound" src="sound/bufflo.mp3"></audio> <!-- ID spell ပြင် -->
+<audio id="buttonSound" src="sound/popbutton.mp3"></audio>
+<audio id="sixcoinSound" src="sound/sixcoin.mp3"></audio>
+
+<!-- Optional: Only add if coin.mp3 is really available -->
+<!-- <audio id="coinSound" src="sound/coin.mp3"></audio> -->  
+
+        <script src="script.js"></script>
+</body>
+</html>
