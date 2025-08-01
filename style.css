@@ -469,3 +469,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.slot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#minus,
+#plus {
+  padding: 4px 8px;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
