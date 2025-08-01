@@ -449,12 +449,12 @@ body {
   width: 100%;
   height: auto;
   object-fit: contain;
-  max-height: 80px;
+  max-height: 100px;
 }
 
 @media (max-width: 600px) {
   .slot-grid {
-    max-width: 100%;
+    max-width: 120%;
     gap: 3px;
   }
 
@@ -479,7 +479,7 @@ body {
 #plus {
   padding: 4px 8px;
   font-size: 14px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 6px;
 }
