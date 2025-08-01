@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Slot Game</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- ✅ Fixed path for GitHub Pages -->
+  <link rel="stylesheet" href="style.css?v=6" />
 </head>
 <body>
 
@@ -26,15 +27,15 @@
     <button id="increaseBetBtn" class="control-btn">➕</button>
   </div>
 
-<!-- Audio Files -->
-<audio id="bgSound" src="sound/back.mp3" loop></audio>
-<audio id="buffaloSound" src="sound/bufflo.mp3"></audio> <!-- ID spell ပြင် -->
-<audio id="buttonSound" src="sound/popbutton.mp3"></audio>
-<audio id="sixcoinSound" src="sound/sixcoin.mp3"></audio>
+  <!-- ✅ Audio Files with correct path -->
+  <audio id="bgSound" src="/slotgame/sound/back.mp3" loop></audio>
+  <audio id="buffaloSound" src="/slotgame/sound/buffalo.mp3"></audio>
+  <audio id="buttonSound" src="/slotgame/sound/popbutton.mp3"></audio>
+  <audio id="sixcoinSound" src="/slotgame/sound/sixcoin.mp3"></audio>
+  <!-- Optional coin sound -->
+  <!-- <audio id="coinSound" src="/slotgame/sound/coin.mp3"></audio> -->
 
-<!-- Optional: Only add if coin.mp3 is really available -->
-<!-- <audio id="coinSound" src="sound/coin.mp3"></audio> -->  
-
-        <script src="script.js"></script>
+  <!-- ✅ Script path fixed -->
+  <script src="script.js"></script>
 </body>
 </html>
